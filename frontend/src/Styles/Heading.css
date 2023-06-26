@@ -1,0 +1,80 @@
+.maindiv {
+    width: 80%;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.maindiv>div:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+    margin-top: 10px;
+    color: #0029FF;
+}
+
+.buttonDiv {
+    /* position: absolute; */
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #0029FF;
+    border-radius: 10px;
+}
+
+.buttonDiv div {
+    padding: 8px 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.secondMaindiv {
+    border-radius: 5px;
+    background: #E9ECEF;
+    text-align: left;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.secondMaindiv div {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .maindiv {
+        width: 80%;
+        border-radius: 5px;
+        margin: auto;
+        margin-left: 100px;
+    }
+    .heading {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .buttonDiv {
+        border-radius: 5px;
+    }
+    .buttonDiv div {
+        width: 70px;
+        padding: 5px;
+        font-size: 10px;
+    }
+}
