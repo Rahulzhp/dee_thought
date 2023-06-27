@@ -107,7 +107,6 @@ const Mainpages = () => {
             }
           </div>
         </div>
-
         <div>
           {
             sidebartwo ?
