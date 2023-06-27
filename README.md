@@ -26,4 +26,6 @@ To make this clone we have used HTMl, CSS and JavaScript, ReactJS for front-end 
 ## Post List page
 -Desktop View
 
+![Screenshot 2023-06-27 115113](https://github.com/Rahulzhp/dee_thought/assets/107567053/bfbbe52f-415e-4b29-a226-2cd1a71cd656)
+
 
