@@ -1,7 +1,7 @@
 import React from 'react'
-import "./Styles/Heading.css"
+import "../Styles/Heading.css"
 
-const Heading = ({headingtitle,secondheading,paragraph}) => {
+const Heading = ({ headingtitle, secondheading, paragraph }) => {
     return (
         <div className='maindiv'>
             <div>

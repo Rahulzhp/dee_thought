@@ -1,0 +1,85 @@
+.fourmain {
+    border-top: 0.1px solid lightgray;
+}
+
+.FourFirst {
+    box-sizing: border-box;
+    width: 90%;
+    height: 40px;
+    left: 747px;
+    top: 534px;
+    background: #F2F2F2;
+    border: 0.1px solid lightgray;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: auto;
+}
+
+.FourFirst>div:nth-child(1) {
+    box-sizing: border-box;
+    width: 89.62px;
+    height: 27px;
+    left: 844.59px;
+    top: calc(50% - 27px/2 - 349px);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    text-align: start;
+    margin-left: 15px;
+}
+
+.FourSecond {
+    width: 90%;
+    /* height: 67px; */
+    margin: auto;
+    text-align: start;
+    margin-top: 15px;
+}
+
+.FourSecond>div:nth-child(1) {
+    padding-left: 20px;
+}
+
+.fourlast {
+    box-sizing: border-box;
+    width: 80%;
+    height: 40px;
+    left: 747px;
+    top: 534px;
+    margin: auto;
+    background: #F2F2F2;
+    border: 0.1px solid lightgray;
+}
+
+.FourSecond>div:nth-child(2) {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fourlast>div {
+    width: 80%;
+    text-align: start;
+    /* display: flex;
+    justify-content:end ;
+    align-items: end; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: auto;
+    /* margin-top: 20px; */
+}
+
+.fourlast>div>div:first-child {
+    margin-top: 5px;
+}
+
+.lastsentance {
+    margin-top: 15px;
+}

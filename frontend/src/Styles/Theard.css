@@ -1,0 +1,173 @@
+.threadFirst {
+    box-sizing: border-box;
+    width: 480px;
+    height: 40px;
+    left: 747px;
+    top: 534px;
+    background: rgba(254, 255, 192, 0.2);
+    border: 0.1px solid lightgray;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.threadFirst>div {
+    /* box-sizing: border-box;
+
+    width: 89.62px;
+    height: 27px;
+    left: 844.59px;
+    top: calc(50% - 27px/2 - 349px); */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    text-align: start;
+    margin-left: 15px;
+}
+
+.secondboxes {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.secondboxes>div {
+    width: 199px;
+}
+
+.secondboxes>div>div:first-child {
+    width: 103%;
+    height: 40px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.05);
+    border: 0.5px solid lightgray;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 14px;
+    text-align: start;
+}
+
+.secondboxes>div>input {
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+    border: 0.5px solid lightgray;
+    outline: none;
+    margin-top: -10px;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+.thirdBoxes {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.thirdBoxes>div {
+    width: 199px;
+}
+
+.thirdBoxes>div:first-child {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 10px;
+}
+
+.thirdBoxes>div:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.thirdBoxes>div:last-child>select {
+    width: 50%;
+    font-style: normal;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: 0.1px solid lightgray;
+    padding: 5px 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.buttonDivtwo {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-top: 15px;
+}
+
+.buttonDivtwo>div {
+    width: 100px;
+    border-radius: 10px;
+    background: #0029FF;
+}
+
+.buttonDivtwo>div>div {
+    padding: 8px 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.lastThreadbox {
+    width: 90%;
+    margin: auto;
+    margin-top: 15px
+}
+
+.lastThreadbox>div>div:first-child {
+    width: 101.5%;
+    height: 40px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.05);
+    border: 0.5px solid lightgray;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 14px;
+    text-align: start;
+}
+
+.lastThreadbox>div>input {
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+    border: 0.5px solid lightgray;
+    outline: none;
+    margin-top: -10px;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (min-width:767px) and (max-width:320px) {
+    .secondboxes>div {
+        width: 180px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .threadFirst {
+        width: 400px;
+    }
+    .secondboxes>div {
+        width: 160px;
+    }
+}

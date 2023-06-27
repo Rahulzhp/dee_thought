@@ -1,5 +1,9 @@
 import React from 'react';
 import "../Styles/Navbar.css";
+import home from "../Icons/home.png"
+import notifiction from "../Icons/notification.png"
+import tools from "../Icons/tools.png"
+import profile from "../Icons/profile.png"
 import { BsThreeDotsVertical } from "react-icons/bs"
 
 const Navbar = () => {
@@ -7,20 +11,20 @@ const Navbar = () => {
     <div className='mainNavbar'>
       <div className='mainNavbarUnder'>
         <div>
-          <img src="https://deepthought.education/assets/images/logo/logo.svg" alt="" />
+          <img src="https://deepthought.education/assets/images/logo/logo.svg" alt="logo" />
         </div>
         <div className='logoNavbar'>
           <div className='logo'>
-            <img src='./Images/home.png' />
+            <img src={home} />
           </div>
           <div className='logo'>
-            <img src='./Images/tools.png' />
+            <img src={tools} />
           </div>
           <div>
-            <img src='./Images/notification.png' className='notification' />
+            <img src={notifiction} className='notification' />
           </div>
           <div>
-            <img src='./Images/profile.png' className='notification' />
+            <img src={profile} className='notification' />
           </div>
           <div>
             <BsThreeDotsVertical />
